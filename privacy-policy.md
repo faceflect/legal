@@ -8,7 +8,7 @@ Thank you for using FaceFlect! Your privacy is of utmost importance to us. This 
 
 FaceFlect is designed to process and store your data **locally on your device**. We prioritize your privacy through completely offline, on-device processing.
 
-- **Facial Data and Biometrics:** FaceFlect uses your device's camera to detect and recognize faces for the "Aura Scanner" and profile enrollment features. **All facial recognition data and biometric representations are encrypted and stored exclusively on your local device.** 
+- **Facial Data and Biometrics:** FaceFlect uses your device's camera to detect and recognize faces for the "Aura Scanner" and profile enrollment features. **All facial recognition data and biometric representations (mathematical embeddings) are encrypted and stored exclusively on your local device.** These embeddings are generated using a local on-device machine learning model and do not contain recognizable image data.
 - **User-Provided Content:** Profile names, life journey details, relationship connections, tags, and dates you enter to build your family tree.
 - **Images/Photos:** Photos you capture or select from your gallery for user profiles.
 
@@ -39,7 +39,8 @@ The data collected is used strictly to provide the features of FaceFlect:
 ## 5. Third-Party Services
 
 FaceFlect utilizes third-party tools for processing that operate locally on your device:
-- **Google ML Kit:** Used locally for face detection. Facial data processed by ML Kit does not leave your device.
+- **Google ML Kit:** Used locally for face detection. Facial data processed by ML Kit is used only to locate faces in the camera frame and is not transmitted off the device.
+- **On-Device TFLite Model:** Used to generate encrypted mathematical representations (embeddings) from detected faces. This processing happens entirely within the app's local sandbox.
 - **Android Biometric Prompt:** Used for securely authenticating the account owner locally.
 
 ## 6. Data Retention and Deletion
@@ -59,5 +60,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 9. Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
-**faceflect@gmail.com**
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: **faceflect@gmail.com**
