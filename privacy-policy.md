@@ -72,10 +72,14 @@ Your data is retained only as long as you keep it on your device.
 
 - **Profile Deletion:** You can delete individual profiles and their associated facial data at any time within the app.
 - **Account Deletion:** You can delete your entire account and all associated data (including all facial embeddings, photos, and family tree structures) via the app's Settings screen. Doing so securely and permanently erases all related data from your local storage.
+- **BIPA Retention Schedule:** In accordance with the Illinois Biometric Information Privacy Act (BIPA), FaceFlect will destroy your biometric data (facial embeddings) after the earlier of (a) the date your account is deleted, or (b) within three years of your last interaction with the app.
 - **App Uninstallation:** If you uninstall FaceFlect, all local application data will be automatically deleted by the Android operating system.
 
-## 8. User Consent
+## 8. User Consent and Explicit Opt-In
 
+To satisfy global biometric privacy standards, FaceFlect requires your explicit, informed consent before any biometric processing occurs:
+
+- **Biometric Processing Opt-In:** At first launch, you will be presented with a "Privacy Gate" where you must explicitly consent to the collection and on-device processing of facial biometric data. You can withdraw this consent at any time by deleting your account.
 - **Camera Permission:** FaceFlect will request your explicit consent before accessing the camera. You can revoke this permission at any time through your device's system settings.
 - **Biometric Authentication:** You may opt in or out of biometric login at any time within the app settings.
 - **Notification Permission:** On Android 13 and above, FaceFlect will request your explicit consent before sending any notifications. You can revoke this permission at any time.
