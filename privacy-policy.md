@@ -51,7 +51,9 @@ The data processed is used **strictly** to provide the on-device features of Fac
 ## 5. Third-Party Libraries and SDKs
 
 FaceFlect utilizes third-party tools for processing that operate **entirely locally on your device**. These libraries do not transmit any data off your device:
+FaceFlect utilizes third-party tools for processing that operate **entirely locally on your device**. These libraries do not transmit your personal biometric data off your device. However, some foundational frameworks may interact with system telemetry:
 
+- **Google Play Services & Built-in Telemetry:** While FaceFlect does not independently transmit data, underlying Google services (like ML Kit and Play native processes) may automatically collect standard, anonymized diagnostic crash logs or device metrics based on your Android OS-level data sharing settings. These analytics never contain your facial embeddings, images, or family tree details.
 - **Google ML Kit (Face Detection):** Used locally to detect faces within the camera frame. No image or facial data processed by ML Kit is transmitted off the device by this SDK.
 - **TensorFlow Lite (On-Device Model):** Used to generate encrypted mathematical representations (embeddings) from detected faces. This processing happens entirely within the app's local sandbox.
 - **Android Biometric Prompt (AndroidX):** Used for securely authenticating the account owner using the device's built-in biometric hardware (fingerprint, face unlock). Authentication is handled entirely by the Android operating system.
@@ -106,3 +108,4 @@ If you have any questions, concerns, or suggestions about our Privacy Policy, do
 
 **AuraKin Solutions**  
 **Email:** faceflect@gmail.com
+
