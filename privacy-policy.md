@@ -50,7 +50,6 @@ The data processed is used **strictly** to provide the on-device features of Fac
 
 ## 5. Third-Party Libraries and SDKs
 
-FaceFlect utilizes third-party tools for processing that operate **entirely locally on your device**. These libraries do not transmit any data off your device:
 FaceFlect utilizes third-party tools for processing that operate **entirely locally on your device**. These libraries do not transmit your personal biometric data off your device. However, some foundational frameworks may interact with system telemetry:
 
 - **Google Play Services & Built-in Telemetry:** While FaceFlect does not independently transmit data, underlying Google services (like ML Kit and Play native processes) may automatically collect standard, anonymized diagnostic crash logs or device metrics based on your Android OS-level data sharing settings. These analytics never contain your facial embeddings, images, or family tree details.
@@ -77,7 +76,25 @@ Your data is retained only as long as you keep it on your device.
 - **BIPA Retention Schedule:** In accordance with the Illinois Biometric Information Privacy Act (BIPA), FaceFlect will destroy your biometric data (facial embeddings) after the earlier of (a) the date your account is deleted, or (b) within three years of your last interaction with the app.
 - **App Uninstallation:** If you uninstall FaceFlect, all local application data will be automatically deleted by the Android operating system.
 
-## 8. User Consent and Explicit Opt-In
+## 8. Global Compliance and Legal Basis
+
+FaceFlect is designed to meet international transparency standards, including **GDPR (UK/EU)**, **PIPEDA & Law 25 (Canada)**, **APP (Australia)**, **DPDP (India)**, **Privacy Act (New Zealand)**, and **BIPA (USA)**.
+
+### 8.1 Legal Basis for Processing (UK/EU GDPR)
+Under Article 9 of the UK and EU GDPR, biometric data is "special category data." Our legal basis for processing this data is your **Explicit Consent**, obtained via a clear affirmative action (the "Privacy Gate") before any processing begins.
+
+### 8.2 Necessity and Proportionality (Canada Law 25 & New Zealand)
+Biometric face recognition (Aura Scanner) is an optional, high-utility feature of FaceFlect. Processing facial embeddings is **reasonably necessary and proportionate** to provide the core experience of identifying family members in real-time. A non-biometric alternative—manually naming and tagging profiles—is always available.
+
+### 8.3 Overseas Data Disclosure (Australia APP)
+FaceFlect does not disclose, host, or transfer any personal or sensitive information outside of your own device. Your data remains in your custody and is not stored or processed in any overseas server infrastructure.
+
+### 8.4 Privacy Officer / Data Protection Officer (Canada & India)
+To exercise your rights under Quebec's Law 25 or India's DPDP Act (including the right to access, correction, or erasure), you may contact our designated Privacy Officer:
+**Email:** faceflect@gmail.com
+**Title:** Privacy & Grievance Officer
+
+## 9. User Consent and Explicit Opt-In
 
 To satisfy global biometric privacy standards, FaceFlect requires your explicit, informed consent before any biometric processing occurs:
 
@@ -90,13 +107,15 @@ To satisfy global biometric privacy standards, FaceFlect requires your explicit,
 
 FaceFlect is not directed at children under the age of 13. The app allows the device owner to add profiles for family members, which may include children. However, all data processing is local and under the direct control of the device owner. It is the account owner's responsibility to manage profiles reflecting children's data. We do not knowingly collect personal information from children under 13.
 
-## 10. International Users and Legal Compliance
+## 11. International Users and Legal Compliance
 
 FaceFlect is designed to comply with applicable data protection laws, including but not limited to:
 
 - **GDPR (General Data Protection Regulation):** Since all data is processed and stored locally on the user's device and no data is transmitted to external servers, FaceFlect operates as a purely local tool. Users have full control over their data, including the right to access, modify, and delete it at any time.
 - **CCPA (California Consumer Privacy Act):** FaceFlect does not sell personal information. All data is stored locally and is under the sole control of the user.
 - **India's DPDP Act (Digital Personal Data Protection Act, 2023):** All personal data processing occurs exclusively on the user's device. No data is collected, stored, or processed by AuraKin Solutions on any external server.
+- **Australia (Privacy Act 1988):** All sensitive information is handled in accordance with the Australian Privacy Principles (APPs).
+- **Canada (PIPEDA & Law 25):** We provide full transparency on biometric necessity and proportionality as required by provincial and federal guidelines.
 
 ## 11. Changes to this Privacy Policy
 
@@ -108,4 +127,3 @@ If you have any questions, concerns, or suggestions about our Privacy Policy, do
 
 **AuraKin Solutions**  
 **Email:** faceflect@gmail.com
-
